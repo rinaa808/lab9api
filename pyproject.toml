@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lab9api"
+version = "0.1.0"
+description = ""
+authors = ["rinaa808 <kyzuuer@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.16"
+python-dotenv = "^1.0.0"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+flask-login = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
